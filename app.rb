@@ -39,6 +39,15 @@ class App
     when 9
       # '9 - Add a music album'
       @data.add_album
+
+    when 10
+      @data.add_movie
+
+    when 11
+      @data.show_movies
+
+    when 12
+      @data.show_sources
     end
   end
 end

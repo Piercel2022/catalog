@@ -20,6 +20,3 @@ CREATE TABLE labels (
   title VARCHAR(50),
   color VARCHAR(50),
 );
-=======
-  FOREIGN KEY (genre_id) REFERENCES genres (id),
-);

@@ -1,5 +1,3 @@
-require './item'
-
 class Label
   attr_accessor :title, :color, :items
 

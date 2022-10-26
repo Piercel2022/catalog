@@ -31,7 +31,7 @@ class Data
     last_name = gets.chomp
 
     author = Author.new(first_name, last_name)
-    game.add_author(author)
+    author.add_item(game)
   end
 
   def add_game
@@ -117,7 +117,7 @@ class Data
     name = gets.chomp
 
     source = Source.new(name)
-    movie.add_source(source)
+    source.add_item(movie)
   end
 
   def add_movie
@@ -198,7 +198,7 @@ class Data
     name = gets.chomp
 
     genre = Genre.new(name)
-    album.add_genre(genre)
+    genre.add_item(album)
   end
 
   def add_album
@@ -283,7 +283,7 @@ class Data
     color = gets.chomp
 
     label = Label.new(title, color)
-    item.add_label(label)
+    label.add_item(item)
   end
 
   def add_book

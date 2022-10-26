@@ -7,7 +7,8 @@ class Label
   end
 
   def add_item(item)
-    @items << item
+    @items.push(item)
+    item.label = self
   end
 
   attr_reader :id, :title, :color, :items

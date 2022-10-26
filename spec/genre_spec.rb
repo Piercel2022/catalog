@@ -18,7 +18,7 @@ describe Genre do
     end
 
     it 'test add item' do
-      music_album.add_genre(genre)
+      genre.add_item(music_album)
       expect(genre.items[0]).to eq(music_album)
     end
   end

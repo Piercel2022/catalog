@@ -1,3 +1,5 @@
+require_relative './data/data'
+
 class App
   def initialize(data = Data.new)
     @data = data

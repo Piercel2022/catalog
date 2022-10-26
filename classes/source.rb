@@ -9,5 +9,5 @@ class Source
     @items << item
   end
 
-  attr_reader :id, :name
+  attr_accessor :id, :name
 end

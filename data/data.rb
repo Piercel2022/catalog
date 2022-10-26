@@ -10,7 +10,7 @@ class Data
   # movies----------------------------------------------------------
   def add_source(movie)
     print 'OOPS Catlog# '
-    print 'Genre Name: '
+    print 'Source Name: '
     name = gets.chomp
 
     source = Source.new(name)
@@ -33,7 +33,7 @@ class Data
       puts 'OOPS Library# Please enter a valid input'
       add_source
     end
-
+    print "Date published: "
     date_published = gets.chomp
 
     movie = Movie.new(date_published, silent)
@@ -54,7 +54,7 @@ class Data
       source: source_obj
     }
 
-    # push it to the book json obj
+    # push it to the movie json obj
     @movies << movie_obj
     @sources << source_obj
     # override

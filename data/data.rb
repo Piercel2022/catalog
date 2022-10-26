@@ -88,6 +88,7 @@ class Data
       puts "\n"
     end
   end
+
   def show_authors
     puts "\n"
     @authors.each_with_index do |author, i|
@@ -170,17 +171,7 @@ class Data
       puts "\n"
     end
   end
-  def show_authors
-    puts "\n"
-    @authors.each_with_index do |author, i|
-      print 'OOPS Catlog# '
-      puts "#{i + 1} ->"
 
-      puts "First Name: #{author['first_name']}"
-      puts "Last Name: #{author['last_name']}"
-      puts "\n"
-    end
-  end
   def show_sources
     puts "\n"
     @sources.each_with_index do |source, i|

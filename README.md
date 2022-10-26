@@ -29,9 +29,8 @@ The data is stored in JSON files but a database ia also prepared with tables str
 
 👤 **Patrick**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [https://github.com/PNdunguMaina)
+- LinkedIn: [https://www.linkedin.com/in/pndungumaina/)
 
 👤 **Pierre**
 

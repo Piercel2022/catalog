@@ -1,4 +1,4 @@
-class Label
+class Source
   def initialize(name, id = Random.rand(1..1000))
     @id = id
     @name = name
@@ -9,5 +9,5 @@ class Label
     @items << item
   end
 
-  attr_reader :id, :title, :color, :items
+  attr_reader :id, :name
 end

@@ -47,5 +47,5 @@ class Item
   end
 
   attr_accessor :date_published
-  attr_reader :id, :archived, :genre, :author, :label
+  attr_reader :id, :archived, :genre, :author, :label, :source
 end

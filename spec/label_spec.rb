@@ -4,7 +4,7 @@ require_relative('../classes/book')
 describe Label do
   label = Label.new('Gift', 'blue')
   book = Book.new('22-02-2022', 'RK Publishing House', 'good')
-  book.add_label(label)
+  label.add_item(book)
 
   it 'initializes with all variables' do
     expect(label.title).to eq 'Gift'

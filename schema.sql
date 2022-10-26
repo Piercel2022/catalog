@@ -6,6 +6,23 @@ CREATE TABLE item (
   publish_date DATE,
   archived BOOLEAN,
   FOREIGN KEY (genre_id) REFERENCES genres (id),
+  FOREIGN KEY (author_id) REFERENCES author (id),
+  FOREIGN KEY (source_id) REFERENCES source (id),
+  FOREIGN KEY (label_id) REFERENCES label (id),
+);
+
+CREATE TABLE book (
+  id  INT,
+  title VARCHAR(150),
+  publisher VARCHAR(150),
+  cover_state VARCHAR(150),
+  FOREIGN KEY(id) REFERENCES item(id)
+);
+
+CREATE TABLE labels (
+  id BIGSERIAL NOT NULL PRIMARY KEY,
+  title VARCHAR(100),
+  color VARCHAR(100),
 );
 
 CREATE TABLE movie (
@@ -26,6 +43,7 @@ CREATE TABLE game (
   last_played_at DATE
   publish_date DATE
   archived BOOLEAN
+  FOREIGN KEY(id) REFERENCES item(id)
 );
 
 CREATE TABLE author (
@@ -39,6 +57,7 @@ CREATE TABLE music_album (
   on_spotify BOOLEAN,
   publish_date DATE,
   archived BOOLEAN
+  FOREIGN KEY(id) REFERENCES item(id)
 );
 
 CREATE TABLE genre (

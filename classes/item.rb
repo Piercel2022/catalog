@@ -10,24 +10,24 @@ class Item
 
   # 02
   # Add all methods visible in the diagram.
-  def add_author(author)
-    @author = author
-    author.add_item(self)
-  end
-
-  def add_source(source)
-    @source = source
-    source.add_item(self)
-  end
-
-  def add_label(label)
-    @label = label
-    label.add_item(self)
-  end
-
-  def add_genre(genre)
+  def genre=(genre)
     @genre = genre
-    genre.add_item(self)
+    genre.items.push(self) unless genre.items.include?(self)
+  end
+
+  def author=(author)
+    @author = author
+    author.items.push(self) unless author.items.include?(self)
+  end
+
+  def label=(label)
+    @label = label
+    label.items.push(self) unless label.items.include?(self)
+  end
+
+  def source=(source)
+    @source = source
+    source.items.push(self) unless source.items.include?(self)
   end
 
   # 03 Implement methods:
@@ -35,7 +35,10 @@ class Item
   # should return true if published_date is older than 10 years
   # otherwise, it should return false
   def can_be_archived?
-    true if (Date.today.to_time.year - @date_published.to_time.year) > 10
+    today = Date.today
+    ten_years_ago = Date.new(today.year - 10, today.month, today.day)
+
+    @date_published < ten_years_ago
   end
 
   # move_to_archive() in the Item class

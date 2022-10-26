@@ -4,7 +4,7 @@ require_relative '../classes/author'
 
 class Data
   def initialize
-    @games = JSON.parse(File.read('data/games.json'))
+    @games = JSON.parse(File.read('data/game.json'))
     @authors = JSON.parse(File.read('data/author.json'))
   end
 
@@ -65,10 +65,10 @@ class Data
     @games << game_obj
     @authors << author_obj
     # override
-    File.write('data/games.json', JSON.generate(@games))
+    File.write('data/game.json', JSON.generate(@games))
     File.write('data/author.json', JSON.generate(@authors))
 
-    @games = JSON.parse(File.read('data/games.json'))
+    @games = JSON.parse(File.read('data/game.json'))
     @authors = JSON.parse(File.read('data/author.json'))
   end
 

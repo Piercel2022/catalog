@@ -1,62 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Catalog of my things
 
-> Description the project.
+This project involves creating a console app that helps one keep a record of different types of things they own: books, music albums, movies, and games. Everything is based on the UML class diagram presented below. 
+The data is stored in JSON files but a database ia also prepared with tables structure analogical to the program's class structure.
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- SQL
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone repository [link](https://github.com/Piercel2022/catalog.git).
+- Change directory into project
+- Run `ruby main.rb`
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Ishpaul**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+👤 **Patrick**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
+- LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
+
+👤 **Pierre**
+
+- GitHub: [@Piercel2022](https://github.com/Piercel2022)
+- Twitter: [@pier_celestin](https://twitter.com/pier_celestin)
+- LinkedIn: [piercelestinmax](https://linkedin.com/in/piercelestinmax)
+
+
+👤 **Nonhlanhla**
+- GitHub: [@Nonhlanhla](https://https://github.com/29td)
+- Twitter: [@NonhlanhlaMnde6](https://twitter.com/NonhlanhlaMnde6)
+-  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Piercel2022/catalog/issues).
 
 ## Show your support
 

@@ -12,10 +12,6 @@ The data is stored in JSON files but a database ia also prepared with tables str
 - Ruby
 - SQL
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 

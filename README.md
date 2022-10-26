@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Catalog of my things
 
-> Description the project.
+This project involves creating a console app that helps one keep a record of different types of things they own: books, music albums, movies, and games. Everything is based on the UML class diagram presented below. 
+The data is stored in JSON files but a database ia also prepared with tables structure analogical to the program's class structure.
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- SQL
 
 ## Live Demo (if available)
 
@@ -21,36 +22,38 @@
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
+## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone repository [link](https://github.com/learnwithalfred/ruby-capstone-222).
+- Change directory into project
+- Run `ruby main.rb`
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Ishpaul**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+👤 **Patrick**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Pierre**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+
+👤 **Nonhlanhla**
+- GitHub: [@Nonhlanhla](https://https://github.com/29td)
+- Twitter: [@NonhlanhlaMnde6](https://twitter.com/NonhlanhlaMnde6)
+-  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
 
 ## 🤝 Contributing
 

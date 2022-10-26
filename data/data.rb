@@ -33,7 +33,7 @@ class Data
       puts 'OOPS Library# Please enter a valid input'
       add_source
     end
-    print "Date published: "
+    print 'Date published: '
     date_published = gets.chomp
 
     movie = Movie.new(date_published, silent)

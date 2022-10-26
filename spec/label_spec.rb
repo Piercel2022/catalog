@@ -21,3 +21,4 @@ describe Label do
     expect(label_of_book).to be label
   end
 end
+

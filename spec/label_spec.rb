@@ -13,8 +13,8 @@ describe Label do
     end
 
     it 'the Label class initializes with the right variables' do
-      expect (@label.title).should eq('48 Laws of Power')
-      expect (@label.color).should eq('Red')
+      expect @label.title.should eq('48 Laws of Power')
+      expect @label.color.should eq('Red')
     end
 
     it 'the add_item method in Label class works correctly' do

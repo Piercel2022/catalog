@@ -3,7 +3,7 @@ require_relative '../book'
 describe Book do
   before(:each) do
     @book = Book.new('2022-10-10', 'Longhorn', 'bad')
-     @book1 = Book.new('2022-10-10', 'Longhorn', 'good')
+    @book1 = Book.new('2022-10-10', 'Longhorn', 'good')
   end
 
   context 'the class Book and its components work correctly' do
@@ -12,11 +12,11 @@ describe Book do
     end
 
     it 'the can_be_archived method works correctly' do
-      expect (@book.can_be_archived?).should be_truthy
+      expect @book.can_be_archived?.should be_truthy
     end
 
     it 'the can_be_archived method works correctly' do
-      expect (@book1.can_be_archived?).should be_falsey
+      expect @book1.can_be_archived?.should be_falsey
     end
   end
 end

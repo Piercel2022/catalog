@@ -9,5 +9,10 @@ describe Book do
     it 'the Book object is created when Book class is instantiated' do
       expect @book.should be_an_instance_of Book
     end
+
+    it 'the Book class has the correct attributes' do
+      book = @book.new('Longhorn', 'covered')
+      expect book.should have_attributes('Longhorn')
+    end
   end
 end

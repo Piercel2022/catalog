@@ -1,6 +1,6 @@
 require_relative '../label'
 
-describe Book do
+describe Label do
   before(:each) do
     @label = Label.new(:title, :color)
   end

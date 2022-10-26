@@ -3,7 +3,7 @@ require_relative '../classes/source'
 
 describe Source do
   before :each do
-    @source = Source.new("TV")
+    @source = Source.new('TV')
   end
 
   context 'should create a new source' do
@@ -12,8 +12,8 @@ describe Source do
     end
 
     it 'should return the source name' do
-			name = @source.name
-      expect(name).to eq "TV"
+      name = @source.name
+      expect(name).to eq 'TV'
     end
   end
 end

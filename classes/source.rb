@@ -6,8 +6,9 @@ class Source
   end
 
   def add_item(item)
-    @items << item
+    @items.push(item)
+    item.source = self
   end
 
-  attr_accessor :id, :name
+  attr_accessor :id, :name, :items
 end

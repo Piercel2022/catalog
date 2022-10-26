@@ -24,7 +24,7 @@ The data is stored in JSON files but a database ia also prepared with tables str
 
 ## Getting Started
 
-- Clone repository [link](https://github.com/learnwithalfred/ruby-capstone-222).
+- Clone repository [link](https://github.com/Piercel2022/catalog.git).
 - Change directory into project
 - Run `ruby main.rb`
 
@@ -59,7 +59,7 @@ The data is stored in JSON files but a database ia also prepared with tables str
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Piercel2022/catalog/issues).
 
 ## Show your support
 

@@ -1,9 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Catalog of my things
+# catalog
 
 This project involves creating a console app that helps one keep a record of different types of things they own: books, music albums, movies, and games. Everything is based on the UML class diagram presented below. 
 The data is stored in JSON files but a database ia also prepared with tables structure analogical to the program's class structure.
+
+### Video
+
+click [here](https://drive.google.com/file/d/1NZ3us7FJ7ZUKsc1TWcfK_Z7A6Okj7rvl/view?usp=sharing) to watch a video on the main features
 
 
 

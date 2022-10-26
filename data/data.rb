@@ -4,8 +4,8 @@ require 'json'
 
 class Data
   def initialize
-    @books = []
-    @labels = []
+    @books = JSON.parse(File.read('./data/books_save.json'))
+    @labels = JSON.parse(File.read('./data/labels_save.json'))
   end
 
   # method to create a book item
@@ -55,5 +55,21 @@ class Data
 
     File.write('./data/books_save.json', JSON.generate(@books))
     File.write('./data/labels_save.json', JSON.generate(@labels))
+  end
+
+  #   method to display books
+  def show_books
+    @books.each_with_index do |book, idx|
+      # rubocop:disable Layout/LineLength
+      puts "#{idx + 1}: #{book['publisher']} publishers - #{book['cover_state']} cover_state - Published on: #{book['date_published']} - Label: #{book['book_label']['title']} - Color: #{book['book_label']['color']}"
+      # rubocop:enable Layout/LineLength
+    end
+  end
+
+  # method to display labels
+  def show_labels
+    @labels.each_with_index do |label, idx|
+      puts "#{idx + 1}: Title: #{label['title']} - Color: #{label['color']}"
+    end
   end
 end

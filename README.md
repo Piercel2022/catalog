@@ -34,9 +34,9 @@ The data is stored in JSON files but a database ia also prepared with tables str
 
 👤 **Pierre**
 
-- GitHub: [@githubhandle](https://github.com/Piercel2022)
-- Twitter: [@twitterhandle](https://twitter.com/pier_celestin)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/piercelestinmax)
+- GitHub: [@Piercel2022](https://github.com/Piercel2022)
+- Twitter: [@pier_celestin](https://twitter.com/pier_celestin)
+- LinkedIn: [piercelestinmax](https://linkedin.com/in/piercelestinmax)
 
 
 👤 **Nonhlanhla**

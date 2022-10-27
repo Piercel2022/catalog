@@ -38,9 +38,9 @@ click [here](https://drive.google.com/file/d/1NZ3us7FJ7ZUKsc1TWcfK_Z7A6Okj7rvl/v
 
 👤 **Pierre**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Piercel2022](https://github.com/Piercel2022)
+- Twitter: [@pier_celestin](https://twitter.com/pier_celestin)
+- LinkedIn: [piercelestinmax](https://linkedin.com/in/piercelestinmax)
 
 
 👤 **Nonhlanhla**

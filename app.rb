@@ -1,7 +1,7 @@
 require_relative './data/data'
 
 class App
-  def initialize(data = Data.new)
+  def initialize(data = Library.new)
     @data = data
   end
 

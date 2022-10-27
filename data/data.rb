@@ -8,7 +8,7 @@ require_relative '../classes/genre'
 require_relative '../classes/book'
 require_relative '../classes/label'
 
-class Data
+class Library
   def initialize
     @games = JSON.parse(File.read('data/game.json'))
     @authors = JSON.parse(File.read('data/author.json'))
